@@ -1,0 +1,14 @@
+package basetask;
+
+public class RunnerPrimitive {
+
+    public static void main(String[] args) {
+
+        TrainMethodsPrimitive f2 = new TrainMethodsPrimitive();
+        f2.printInt();
+        f2.printLong();
+        f2.printChar();
+        f2.printFloat();
+
+    }
+}
