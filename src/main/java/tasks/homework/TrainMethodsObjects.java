@@ -10,14 +10,18 @@ public class TrainMethodsObjects {
         System.out.println("Это соус " + souce.getName() + souce.getColor() + " цвета");
     }
 
+    public void processObstacle(Obstacle obstacle) {
+        System.out.println("Возникло " + obstacle.getSeverity() + " препятствие " + obstacle.getDescription());
+    }
+
     public static void main(String[] args) {
 
-        //TrainMethodsReturn f3 = new TrainMethodsReturn();
-        //f3.returnNewInt(2);
         Mouse mouse = new Mouse("Mini", 5);
         new TrainMethodsObjects().processMouse(mouse);
         Souce souce = new Souce("бешамель ", "белого");
         new TrainMethodsObjects().processSouce(souce);
+        Obstacle obstacle = new Obstacle("авария на трассе", "серьезное");
+        new TrainMethodsObjects().processObstacle(obstacle);
 
     }
 }
