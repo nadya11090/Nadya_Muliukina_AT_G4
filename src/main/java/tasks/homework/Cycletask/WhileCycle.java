@@ -6,8 +6,8 @@ public class WhileCycle {
         int i = 0;
         while (i <= 20) {
             System.out.print(i + " ");
-            i++;
-
+                        i++;
         }
+        System.out.println("\n");
     }
 }
