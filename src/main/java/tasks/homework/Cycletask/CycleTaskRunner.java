@@ -2,9 +2,9 @@ package tasks.homework.Cycletask;
 
 public class CycleTaskRunner {
     public void whileCycle() {
+
         System.out.println();
     }
-
 
     public static void main(String[] args) {
         WhileCycle f = new WhileCycle();
@@ -13,6 +13,8 @@ public class CycleTaskRunner {
         f1.forCycle();
         Array f2 = new Array();
         f2.array();
+        ArrayMin f3 = new ArrayMin();
+        f3.array();
     }
 
 
