@@ -1,4 +1,4 @@
 package project.boxing;
 
-public class Box {
+public class Bubble {
 }

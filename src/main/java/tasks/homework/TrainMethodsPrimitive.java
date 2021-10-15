@@ -2,43 +2,40 @@ package tasks.homework;
 
 public class TrainMethodsPrimitive {
 
-    public void printInt () {
-        int a = 3;
-        System.out.println("я получил на вход число " + a);
+    public void printInt(int varInt) {
+
+        System.out.println("я получил на вход число " + varInt);
     }
 
-    public void printLong () {
-        long b = 3333333;
-        System.out.println("я получил на вход длинное число " + b);
+    public void printLong(long varLong) {
+
+        System.out.println("я получил на вход длинное число " + varLong);
     }
 
-    public void printChar () {
-        char c = 89;
-        System.out.println("я получил на вход символ " + c);
+    public void printChar(char varChar) {
+
+        System.out.println("я получил на вход символ " + varChar);
     }
 
-    public void printFloat () {
-        float d = 0.89f;
-        System.out.println("я получил на вход дробное число " + d);
+    public void printFloat(float varFloat) {
+
+        System.out.println("я получил на вход дробное число " + varFloat);
     }
 
-    public void printDouble () {
-        double e = 0.89999999;
-        System.out.println("я получил на вход длинное дробное число " + e);
+    public void printDouble(double varDouble) {
+        System.out.println("я получил на вход длинное дробное число " + varDouble);
     }
 
-    public void printShort () {
-        short Short = 77;
-        System.out.println("я получил на вход короткое число " + Short);
+    public void printShort(short varShort) {
+
+        System.out.println("я получил на вход короткое число " + varShort);
     }
 
-    public void printByte () {
-        byte Byte = 4;
-        System.out.println("я получил на вход очень короткое число " + Byte);
+    public void printByte(byte varByte) {
+        System.out.println("я получил на вход очень короткое число " + varByte);
     }
 
-    public void printBoolean () {
-        boolean Boolean = true;
-        System.out.println("я получил на вход булево " + Boolean);
+    public void printBoolean(boolean varBoolean) {
+        System.out.println("я получил на вход булево " + varBoolean);
     }
 }

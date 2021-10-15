@@ -2,25 +2,32 @@ package tasks.homework;
 
 public class TrainMethodsReturn {
 
-    public static int returnNewInt(int a) {
-
-        int b = a * 3;
-        return b;
+    public static int returnNewInt(int varInt) {
+              return varInt * 3;
     }
 
-    public static long returnNewLong(long c) {
-        long d = c - 4;
-        return d;
+    public static long returnNewLong(long varLong) {
+               return varLong - 4;
     }
 
-    // public static char returnNewChar(char e) {
-    //    return "e + e";
+    //-- создать метод returnNewChar, который принимает на вход символ (char) и возвращает строку из двух таки символов
+    public static char returnNewChar(char varChar) {
+         return varChar;
+     }
 
-
-    public static float returnNewFloat(float f) {
-        float g = f / 2;
-        return g;
+    public static float returnNewFloat(float varFloat) {
+                return varFloat / 2;
     }
 
+    public static float returnNewDouble(float varDouble) {
+        return varDouble + 8;
+    }
 
+    public static float returnNewShort(float varShort) {
+        return varShort - 1;
+    }
+
+    public static float returnNewByte(float varByte) {
+        return varByte * 2;
+    }
 }
