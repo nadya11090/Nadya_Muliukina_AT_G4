@@ -21,13 +21,13 @@ public class SparklingWater extends Water {
         System.out.printf("Checking water for openness").println();
     }
 
-    private degas() {
-        System.out.printf("Saturation of water with gas").println();
-        return;
-    }
+    // private degas() {
+    //     System.out.printf("Saturation of water with gas").println();
+    //     return;
+    //}
 
     public boolean isSparkle() {
         System.out.printf("Test for gas content in water").println();
-    }
 
+    }
 }
