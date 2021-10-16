@@ -1,6 +1,4 @@
-package tasks.homework;
-
-import java.sql.SQLOutput;
+package tasks.homework.basetask;
 
 public class TrainsMethodReturnRunner {
 
