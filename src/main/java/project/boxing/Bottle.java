@@ -21,7 +21,7 @@ public class Bottle {
         return getWater();
     }
 
-    public setWater(SparklingWater water) {
+    public SparklingWater setWater(SparklingWater water) {
         System.out.printf("Adding a new object: water").println();
         return Water();
 
