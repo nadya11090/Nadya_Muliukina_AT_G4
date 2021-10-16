@@ -15,6 +15,7 @@ public class TrainMethodsReturn {
     //-- создать метод returnNewChar, который принимает на вход символ (char) и возвращает строку из двух таки символов
     public static char returnNewChar(char varChar) {
 
+
         return varChar;
      }
 
