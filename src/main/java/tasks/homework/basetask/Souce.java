@@ -1,4 +1,4 @@
-package tasks.homework;
+package tasks.homework.basetask;
 
 public class Souce {
     private String name;
@@ -25,6 +25,7 @@ public class Souce {
         this.color = color;
     }
     public void printSouceDetails() {
+
         System.out.println("Это соус " +  this.name  +  this.color  + " цвета");
     }
 }
