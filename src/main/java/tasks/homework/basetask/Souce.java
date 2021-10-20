@@ -5,6 +5,7 @@ public class Souce {
     private String color;
 
     public String getName() {
+
         return name;
     }
 

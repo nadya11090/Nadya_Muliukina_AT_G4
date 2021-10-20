@@ -19,21 +19,21 @@ public class SparklingWater extends Water {
         System.out.printf("Change of state of water to open").println();
     }
 
-   // private void isOpened() {
-     //   System.out.printf("Checking water for openness").println();
-   // }
+    // private void isOpened() {
+    //   System.out.printf("Checking water for openness").println();
+    // }
 
     public void degas() {
-    int partSecond = 0;
-    for (i < bubbles.length;
-    partSecond += (10 + 5) * this.getTemp();
-    System.out.printf("Saturation of water with gas").println();
-         return;
+        int partSecond = 0;
+        //for (i < bubbles.length;
+        //partSecond += (10 + 5) * this.getTemp();
+        System.out.printf("Saturation of water with gas").println();
+
     }
 
     public boolean isSparkle() {
-        if bubbles != null;
+        // if bubbles != null;
         System.out.printf("Test for gas content in water").println();
-
+        return true;
     }
 }
