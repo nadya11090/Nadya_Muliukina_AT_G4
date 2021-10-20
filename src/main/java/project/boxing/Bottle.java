@@ -5,7 +5,7 @@ public class Bottle {
     private String SparklingWater;
 
     public void open() {
-        this.water.setOpened(true);
+       // this.water.setOpened(true);
 
         System.out.printf("Change of state to: open").println();
 
@@ -23,7 +23,7 @@ public class Bottle {
 
     public SparklingWater setWater(SparklingWater water) {
         System.out.printf("Adding a new object: water").println();
-        return Water();
+        return new SparklingWater(false);
 
     }
 
