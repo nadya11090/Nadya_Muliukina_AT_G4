@@ -1,4 +1,4 @@
-package tasks.homework.day4;
+package tasks.homework.Array_day4;
 
 public class Horse {
     public static void main(String[] args) {
