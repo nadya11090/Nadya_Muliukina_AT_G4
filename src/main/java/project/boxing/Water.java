@@ -1,10 +1,16 @@
 package project.boxing;
 
-public class Water {
+import project.New.Transformable;
+
+public class Water implements Transformable {
     private String color = "no";
     private String transparency = "transparent";
     private String smell = "no";
     private int temperature = 0;
+
+    public Water(String color, String transparency, String smell, int temperature) {
+
+    }
 
     public String getColor() {
 
@@ -12,6 +18,7 @@ public class Water {
     }
 
     public void setColor(String color) {
+
         this.color = color;
     }
 
@@ -20,22 +27,33 @@ public class Water {
     }
 
     public void setTransparency(String transparency) {
+
         this.transparency = transparency;
     }
 
     public String getSmell() {
+
         return smell;
     }
 
     public void setSmell(String smell) {
+
         this.smell = smell;
     }
 
     public int getTemperature() {
+
         return temperature;
     }
 
     public void setTemperature(int temperature) {
+
         this.temperature = temperature;
+    }
+
+
+    @Override
+    public void mix() {
+
     }
 }
