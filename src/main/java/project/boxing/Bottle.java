@@ -21,11 +21,11 @@ public class Bottle {
         return getWater();
     }
 
-    public SparklingWater setWater(SparklingWater water) {
-        System.out.printf("Adding a new object: water").println();
-        return new SparklingWater(false);
+    //public SparklingWater setWater(SparklingWater water) {
+        //System.out.printf("Adding a new object: water").println();
+       // return new SparklingWater(blue);
 
-    }
+  //  }
 
         public Bottle(double volume) {
         this.volume = volume;

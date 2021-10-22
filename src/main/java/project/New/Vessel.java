@@ -1,6 +1,6 @@
-package project.Vessel;
+package project.New;
 
-public abstract class Vessel {//extends Bottle, Cup, Can {
+public abstract class Vessel {
     private double volume;
     private double diameter;
     private int weight;

@@ -1,7 +1,6 @@
-package project.Vessel;
+package project.New;
 
-public abstract class Material {//extends Glass, Plastic, Metal {
-
+public class Material {
     private double thermalConductivity;
     private String color;
     private double density;
