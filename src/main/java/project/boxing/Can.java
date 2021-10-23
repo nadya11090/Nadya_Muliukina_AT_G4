@@ -1,4 +1,6 @@
-package project.New;
+package project.boxing;
+
+import project.material.Material;
 
 public class Can extends Vessel {
 

@@ -1,6 +1,8 @@
 package project.boxing;
 
-public class Bottle {
+import project.material.Material;
+
+public class Bottle extends Vessel{
     private double volume;
     private String SparklingWater;
 
@@ -16,7 +18,7 @@ public class Bottle {
         System.out.printf("Warming water to: %s", temperature).println();
 
     }
-    public SparklingWater getWater() {
+    public project.liquid.SparklingWater getWater() {
         System.out.printf("Returning an object: water").println();
         return getWater();
     }
@@ -27,8 +29,9 @@ public class Bottle {
 
   //  }
 
-        public Bottle(double volume) {
-        this.volume = volume;
-    }
+        public Bottle(double volume, double diameter, int weight, Material material) {
+            super(volume, diameter, weight, material);
+
+        }
 
 }

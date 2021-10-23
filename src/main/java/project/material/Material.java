@@ -1,4 +1,4 @@
-package project.New;
+package project.material;
 
 public class Material {
     private double thermalConductivity;

@@ -1,6 +1,6 @@
-package project.boxing;
+package project.liquid;
 
-import project.New.Transformable;
+import project.material.Transformable;
 
 public class Water implements Transformable {
     private String color = "no";
