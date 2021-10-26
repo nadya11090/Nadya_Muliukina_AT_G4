@@ -1,4 +1,4 @@
-package tasks.homework.days78;
+package tasks.homework.days7_8;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Butterflies {
 
 
         for (String butterflies : myButterflies) {
-            System.out.print("'" + butterflies + "'" + " ");
+            System.out.print("\"" + butterflies + "\"" + " ");
         }
         System.out.println("\n");
 
