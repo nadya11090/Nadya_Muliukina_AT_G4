@@ -1,4 +1,4 @@
-package tasks.homework.days7_8;
+package tasks.homework.days7_8.package1;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -16,9 +16,15 @@ public class Сountries {
         for (String countr : countries) {
             System.out.print(countr + ", ");
         }
-        System.out.println();
 
-       // Посчитать сколько стран, в названии которых меньше 7 букв и вывести число в консоль-- доделаю
+        int count = 0;
+
+        for (String countr : countries) {
+            if (countr.length() < 7) ;
+            count++;
+        }
+        System.out.println("\n" + count);
+
 
         for (int i = 0; i < countries.size(); i++) {
                 System.out.println(countries.get(i));
