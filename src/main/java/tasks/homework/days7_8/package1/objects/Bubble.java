@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Bubble {
 
     private int volume;
-   private String name;
+    private String name;
 
     public Bubble(int volume, String name) {
         this.volume = volume;
