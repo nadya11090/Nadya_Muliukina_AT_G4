@@ -30,14 +30,13 @@ public class Butterflies {
 
 
         for (int i = 0; i < myButterflies.size(); i++) {
-            System.out.print( myButterflies.get(i) + " ");
+            System.out.print(myButterflies.get(i) + " ");
         }
         for (String butterflies : myButterflies) {
             System.out.print(butterflies + "\n");
         }
-        }
-
     }
+}
 
 
 
