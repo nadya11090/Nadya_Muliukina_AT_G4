@@ -19,6 +19,15 @@ public class Elements7 {
         System.out.println();
 
 
+        String words2regex = ".+\\W+.+";
+        int countMore1Word = 0;
+        for (String f : elements) {
+            if (f.matches(words2regex)) {
+                countMore1Word++;
+            }
+        }
+        System.out.println(countMore1Word);
+
         for (int i = 0; i < elements.size(); i++) {
             System.out.print(elements.get(i) + " ");
         }
