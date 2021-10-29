@@ -17,7 +17,9 @@ public class Birds {
         int count = 0;
 
         for (String bird : birds) {
-            if (bird.contains("и")) {
+            System.out.println("--" + bird + "--");
+            String novowelsbird = bird.replaceAll("[аеёиоуыэюя]", "");
+            if ((bird.length() - novowelsbird.length()) > 1) {
                 count++;
             }
         }
@@ -28,8 +30,8 @@ public class Birds {
         }
         System.out.println();
 
-        birds.remove(2);
-        birds.add(2, "Синица");
+        birds.remove(3);
+        birds.add(3, "Синица");  // birds.set(3, "Синица");
 
         for (String bird : birds) {
             System.out.print(bird + " ");
