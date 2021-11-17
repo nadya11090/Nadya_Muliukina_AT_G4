@@ -1,6 +1,6 @@
-package project.boxing;
+package project.vessel;
 
-import project.material.Material;
+import project.material.Material11;
 
 public class Bottle extends Vessel{
     private double volume;
@@ -18,7 +18,7 @@ public class Bottle extends Vessel{
         System.out.printf("Warming water to: %s", temperature).println();
 
     }
-    public project.liquid.SparklingWater getWater() {
+    public project.stuff.SparklingWater getWater() {
         System.out.printf("Returning an object: water").println();
         return getWater();
     }
@@ -29,7 +29,7 @@ public class Bottle extends Vessel{
 
   //  }
 
-        public Bottle(double volume, double diameter, int weight, Material material) {
+        public Bottle(double volume, double diameter, int weight, Material11 material) {
             super(volume, diameter, weight, material);
 
         }
