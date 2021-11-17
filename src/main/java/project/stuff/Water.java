@@ -1,6 +1,4 @@
-package project.liquid;
-
-import project.material.Transformable;
+package project.stuff;
 
 public class Water implements Transformable {
     private String color = "no";
@@ -46,14 +44,16 @@ public class Water implements Transformable {
         return temperature;
     }
 
+    @Override
+    public void setOpened() {
+
+    }
+
     public void setTemperature(int temperature) {
 
         this.temperature = temperature;
     }
 
 
-    @Override
-    public void mix() {
 
-    }
 }

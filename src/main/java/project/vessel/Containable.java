@@ -1,4 +1,4 @@
-package project.material;
+package project.vessel;
 
 public interface Containable {
 
