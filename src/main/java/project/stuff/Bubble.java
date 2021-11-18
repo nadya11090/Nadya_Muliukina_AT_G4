@@ -8,9 +8,5 @@ public class Bubble {
         System.out.println("Cramp!");
     }
 
-    public double getVolume() {
-        System.out.printf("Returning the volume of the bubble").println();
-        return VOLUME;
-    }
 
 }

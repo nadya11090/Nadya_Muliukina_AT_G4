@@ -1,21 +1,25 @@
 package project.warehouse;
 
+import java.nio.file.Path;
+
 public class Stocktaking {
 
     private Stocktaking(){
 
     }
-   // public static registerBox (VesselBox box){
+    public static void registerBox (VesselBox box){
 
 
-   // }
-   // public static disposeBox(VesselBox box){
+   }
+   public static void disposeBox(VesselBox box){
 
 
-   // }
-   // private static final Path FILE;
+    }
+
+   private static final Path FILE = null;
 
     public static void getInfo(){
+        System.out.println();
 
     }
 }
