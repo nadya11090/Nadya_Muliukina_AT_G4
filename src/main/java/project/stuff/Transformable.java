@@ -2,9 +2,12 @@ package project.stuff;
 
 public interface Transformable {
 
-    void setOpened();
-
-    void setTemperature(int temperature);
-
+    void addStuff (Transformable stuff);
+    Transformable removeStuff();
+    boolean isEmpty();
+    int getFreeSpace();
+    void open();
+    void close();
+    void warm(int temperature);
 
 }

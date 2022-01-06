@@ -14,4 +14,40 @@ public abstract class Vessel {
         this.weight = weight;
         this.material = material;
     }
+
+    public Vessel() {
+
+    }
+
+    public double getVolume() {
+        return volume;
+    }
+
+    public void setVolume(double volume) {
+        this.volume = volume;
+    }
+
+    public double getDiameter() {
+        return diameter;
+    }
+
+    public void setDiameter(double diameter) {
+        this.diameter = diameter;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public Material11 getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(Material11 material) {
+        this.material = material;
+    }
 }

@@ -1,15 +1,40 @@
 package project.stuff;
 
 public class Sand implements Transformable {
+
+
     @Override
-    public void setOpened() {
+    public void addStuff(Transformable stuff) {
 
     }
 
     @Override
-    public void setTemperature(int temperature) {
+    public Transformable removeStuff() {
+        return null;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public int getFreeSpace() {
+        return 0;
+    }
+
+    @Override
+    public void open() {
 
     }
 
+    @Override
+    public void close() {
 
+    }
+
+    @Override
+    public void warm(int temperature) {
+
+    }
 }

@@ -6,7 +6,7 @@ import java.util.List;
 
 public class VesselBox {
 
-    private String name; //"I am box with <25> <Bottles>"
+    private String name = "I am box with <%d> <%d>";
 
     private int capacity;
 
@@ -15,6 +15,7 @@ public class VesselBox {
     private long id;
 
     public boolean equals(Object o){
+
         return(true);
     }
 
@@ -26,4 +27,19 @@ public class VesselBox {
 
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public List<Containable> getBox() {
+        return box;
+    }
+
+    public long getId() {
+        return id;
+    }
 }

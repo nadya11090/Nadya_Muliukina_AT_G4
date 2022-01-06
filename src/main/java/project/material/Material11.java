@@ -10,4 +10,28 @@ public class Material11 {
         this.color = color;
         this.density = density;
     }
+
+    public double getThermalConductivity() {
+        return thermalConductivity;
+    }
+
+    public void setThermalConductivity(double thermalConductivity) {
+        this.thermalConductivity = thermalConductivity;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getDensity() {
+        return density;
+    }
+
+    public void setDensity(double density) {
+        this.density = density;
+    }
 }
